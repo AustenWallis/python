@@ -437,7 +437,7 @@ compton_dir (p)
 
   n = l = m = 0.0;
 
-  if (x1 < 0.0001)              //If the photon energy is low, we use the diple approximation            
+  if (x1 < 0.000000001)         //If the photon energy is low, we use the diple approximation            
   {
     randvdipole (lmn, p->lmn);
     stuff_v (lmn, p->lmn);
